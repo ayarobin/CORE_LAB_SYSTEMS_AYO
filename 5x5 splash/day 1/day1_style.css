@@ -1,0 +1,53 @@
+
+img {
+	max-width: 100%;
+  	height: auto;
+ 	width: auto;
+ 	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#div1{
+	margin: auto;
+  	width: 50%;
+	height: 500px;
+	position: center;
+	transition: width 1s;
+	transition-timing-function: linear;
+	transition: height .5s;
+	transition-timing-function: linear;
+}
+
+#div1:hover {
+	margin: auto;
+  	width: 60%;
+	width: 900px;
+	height: 700px;
+	position: center;
+	transition: width 1s;
+	transition-timing-function: linear;
+	transition: height .5s;
+	transition-timing-function: linear;
+}
+
+
+
+@media (max-width: 3000px) { 
+	body{
+		background-color: black;
+		
+	}
+}
+
+	h1 {
+		font-family: 'futura';
+		color: white;
+		text-align: center;
+	}
+
+	h2 {
+		font-family: 'futura';
+		color: white;
+		text-align: center;
+	}

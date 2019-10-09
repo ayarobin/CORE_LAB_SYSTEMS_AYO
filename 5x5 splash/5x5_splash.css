@@ -1,0 +1,150 @@
+
+body {
+	font-family: futura;
+	color: black;
+	text-align: center;
+}
+
+
+
+h3 {
+	
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+#homeAbout {
+	margin-left: 27%;
+	margin-right: 27%;
+	color:darkgrey;
+	font: times new roman;
+}
+#discount {
+	margin-left: 24%;
+	margin-right: 24%;
+	color: magenta;
+}
+
+
+/*menu*/
+
+#menu {
+	list-style-type: none;
+
+}
+
+
+#shop{
+	/*width: 100px;
+	height: 30px;
+	background: #696969;*/
+}
+#shop a, a:visited, a:active{
+	text-decoration: none;
+	color: #00ffcc;
+}
+
+#shop a:hover{
+	color:violet;
+}
+
+
+
+#notify a, a:visited, a:active{
+	text-decoration: none;
+	color: #00ffcc;
+}
+
+#notify a:hover{
+	color:violet;
+}
+
+
+
+#custom a, a:visited, a:active{
+	text-decoration: none;
+	color: #00ffcc;
+}
+
+#custom a:hover{
+	color:violet;
+}
+
+
+
+#about a, a:visited, a:active{
+	text-decoration: none;
+	color: #00ffcc;
+}
+
+#about a:hover{
+	color:violet;
+}
+
